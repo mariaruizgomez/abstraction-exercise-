@@ -1,5 +1,5 @@
-//Abstraction - interface
-//Make an interdace called Animals
+
+//Make an interface called Animals
 public interface Animals {
     public void sound();
     public void eat();

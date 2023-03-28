@@ -18,11 +18,12 @@ public void eat(){
     System.out.println("I eat at night. Yum!");
 }
 
-
 @Override
 public void sleep(){
-    System.out.println("I sleep in the day. Zzzzz");
+    System.out.println("I sleep during the day. Zzzzz");
 }
+
+// getters and setters
 
 public String getFindPrey(){
     return findPrey;
@@ -30,11 +31,24 @@ public String getFindPrey(){
 public void setFindPrey(String findPrey){
     this.findPrey= findPrey;
 }
-
-
 public String getSound(){
     return sound;
 }
+public void setSound(String sound){
+    this.sound= sound;
+}
+public String getEyes(){
+    return eyes;
+}
+public void setEyes(String eyes){
+    this.eyes= eyes;
+}
+public String getEars(){
+    return ears;
+}
+public void setEars(String ears){
+    this.ears= ears;
+}
 }
 
-// getters and setters
+
