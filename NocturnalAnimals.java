@@ -1,6 +1,7 @@
+// Have NocturnalAnimals use the Animals interface.
 public class NocturnalAnimals implements Animals {
   
-    // Create 2 encapsulated String variables
+    // Create 2 encapsulated String variables called eyes and ears.
 
     private String findPrey;
     private String sound;
@@ -23,8 +24,17 @@ public void sleep(){
     System.out.println("I sleep in the day. Zzzzz");
 }
 
+public String getFindPrey(){
+    return findPrey;
+}
+public void setFindPrey(String findPrey){
+    this.findPrey= findPrey;
+}
 
 
+public String getSound(){
+    return sound;
+}
 }
 
 // getters and setters

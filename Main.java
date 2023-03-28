@@ -15,7 +15,7 @@ class Main {
         animals.add(dogs);
         animals.add(sonic);
               
-
+        //for each loop
         for(Animals a: animals){
             a.sound();
             a.sleep();
