@@ -1,3 +1,3 @@
-public class Bats {
+public class Bats extends NocturnalAnimals {
     
 }

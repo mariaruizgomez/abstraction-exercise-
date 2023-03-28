@@ -1,4 +1,4 @@
-//Abstraction
+//Abstraction - interface
 //Make an interdace called Animals
 public interface Animals {
     public void sound();
